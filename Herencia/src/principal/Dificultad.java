@@ -1,6 +1,6 @@
 package principal;
 
-public enum Difiultad {
+public enum Dificultad {
 BAJO,
 MEDIO,
 ALTO

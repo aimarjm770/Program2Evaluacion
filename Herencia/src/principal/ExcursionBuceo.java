@@ -1,7 +1,6 @@
 package principal;
 
 public class ExcursionBuceo extends Excursion {
-
 	private boolean certificado;
 	private double profundidad;
 	private boolean alquiler;
@@ -44,5 +43,20 @@ public class ExcursionBuceo extends Excursion {
 				+ "]";
 	}
 	
+	public double calcularPrecio() {
 		
+		double precio;
+		if(alquiler==true) {
+			
+		precio= super.calcularPrecio() + 100* getNumeroParticipantes();
+		
+		}
+		else {
+			precio= super.calcularPrecio();
+		}
+	return precio;
+		
+	}	
 }
+
+

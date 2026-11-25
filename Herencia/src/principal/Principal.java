@@ -18,5 +18,6 @@ public class Principal {
 			1, false, 6, false);
 	System.out.println(excurBuceoSinCertiSinEquipo.toString());
 	}
+	}
 
-}
+
